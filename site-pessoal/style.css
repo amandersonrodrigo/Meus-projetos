@@ -10,7 +10,6 @@ html{
 
 body{
     background-color:#162042 ;
-    max-width: 1280px;
     margin: 0 auto;
 }
 
@@ -28,6 +27,8 @@ header .cabecalho{
     justify-content: space-between;
     align-items: center;
     height: 100px;
+    max-width: 1280px;
+    margin: auto;
 }
 
 header div ul {
@@ -51,6 +52,11 @@ header div ul li a{
 
 header nav ul li a:hover{
     color: white;
+}
+
+main{
+    max-width: 1280px;
+    margin: auto;
 }
 
 main .home{
@@ -78,6 +84,7 @@ main .home h1 span{
 
 main .home img{
     border-radius: 40px;
+    
 }
 
 main .habilidades{
